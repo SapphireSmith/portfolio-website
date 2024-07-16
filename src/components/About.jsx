@@ -17,11 +17,11 @@ const About = () => {
                         <p>Hi. I'm Sapphire smith, nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
-                        <p>I am passionate about building excellent software that improves
-                            the lives of those around me. I specialize in creating software
-                            for clients ranging from individuals and small-businesses all the
-                            way to large enterprise corporations. What would you do if you had
-                            a software expert available at your fingertips?
+                        <p>Hi, I'm Sapphire, a passionate MERN stack developer dedicated to crafting exceptional
+                            digital experiences. Currently, I'm focused on building responsive full-stack web
+                            applications with a strong emphasis on frontend development using React and Next.js.
+                            I love turning complex problems into simple, beautiful, and intuitive designs.
+                            Let's create something amazing together!
                         </p>
                     </div>
                 </div>

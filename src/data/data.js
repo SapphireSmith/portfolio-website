@@ -1,50 +1,50 @@
 import sumz from '../assets/projects/sumz.png';
-import jobFinder from '../assets/projects/job-finder.png';
-import bestEats from '../assets/projects/best-eats.png';
-import hooBank from '../assets/projects/hoobank.png';
+import food_del from '../assets/projects/food_del.png';
+import nike_landing from '../assets/projects/nike_landing.png';
 import analytical from '../assets/projects/analytical.png';
-import mernAuth from '../assets/projects/mern-auth.png';
+import tic_tac_toe from '../assets/projects/tic_tac_toe.png';
+import chat_app from '../assets/projects/chata-app.png'
 
 export const data = [
     {
         id: 1,
-        name: "React JS Application",
-        image: sumz,
-        github: "https://github.com/SapphireSmith/ai-sumz",
-        live: "https://ai-summarizar.netlify.app/",
+        name: "Food Ordering platform with stripe payment",
+        image: food_del,
+        github: "https://github.com/SapphireSmith/food_ordering_platform",
+        live: "https://food-ordering-platform-frontend-x58p.onrender.com/",
     },
     {
         id: 2,
-        name: "MERN Application",
-        image: jobFinder,
-        github: "https://github.com/SapphireSmith/job-finder-mern-app",
+        name: "Nike Landing Page",
+        image: nike_landing,
+        github: "https://github.com/SapphireSmith/Nike-webpage",
         live: "https://job-finder-client.onrender.com/",
     },
     {
         id: 3,
-        name: "React JS Application",
-        image: bestEats,
-        github: "https://github.com/SapphireSmith/react-restaurent-website",
-        live: "https://best-eats-react-1.netlify.app",
+        name: "Multiplayer Game",
+        image: tic_tac_toe,
+        github: "https://github.com/SapphireSmith/tic-tac-toe-multiplayer",
+        live: "https://tic-tac-toe-multiplayer-client.onrender.com/",
     },
     {
         id: 4,
-        name: "MERN Application",
-        image: mernAuth,
-        github: "https://github.com/SapphireSmith/MERN-auth-jwt",
-        live: "https://mern-auth-2kq7.onrender.com/",
+        name: "Chat App",
+        image: chat_app,
+        github: "https://github.com/SapphireSmith/chat-app-mern",
+        live: "https://chat-app-mern-fhab.onrender.com/",
     },
     {
         id: 4,
-        name: "React JS Application",
+        name: "AI summarizer",
+        image: sumz,
+        github: "https://github.com/SapphireSmith/ai-sumz",
+        live: "https://ai-summarizar.netlify.app/",
+    }, {
+        id: 4,
+        name: "Landing Page",
         image: analytical,
         github: "https://github.com/SapphireSmith/analatical-website-react",
         live: "https://react-analyics.netlify.app",
-    }, {
-        id: 4,
-        name: "React JS Application",
-        image: hooBank,
-        github: "https://github.com/SapphireSmith/modern-website-react-tailwind",
-        live: "https://modern-website-tailwind.netlify.app",
     },
 ]

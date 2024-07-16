@@ -11,8 +11,9 @@ const NavBar = () => {
     return (
         <div className='bg-[#0a192f] h-[100px] w-full  flex justify-center items-center  '>
             <div className='fixed w-full max-w-[1300px] flex justify-between items-center px-4 text-gray-300'>
-                <div>
-                    <img src={Logo} alt="logo_img" className='w-[100px] z-20' />
+                <div className='flex gap-1'>
+                    <h1 className='text-4xl capitalize font-extrabold text-[#ccd6f6]'>SAPPHIRE</h1>
+                    <div className='h-[20px] w-[20px] mt-[15px] bg-pink-600 rounded-full'/>
                 </div>
 
                 {/* menu */}
@@ -83,7 +84,7 @@ const NavBar = () => {
                     <ul>
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-0px] duration-300 bg-blue-600'>
                             <a className='flex justify-between items-center w-full text-gray-300'
-                                target='_blank' href="https://www.linkedin.com/in/sapphire-smith-963237232/">LinkedIn <FaLinkedin size={30} /> </a>
+                                target='_blank' href="https://www.linkedin.com/in/sapphiresmith/">LinkedIn <FaLinkedin size={30} /> </a>
                         </li>
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-0px] duration-300 bg-gray-800'>
                             <a className='flex justify-between items-center w-full text-gray-300'
@@ -91,7 +92,7 @@ const NavBar = () => {
                         </li>
                         <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-0px] duration-300 bg-blue-600'>
                             <a className='flex justify-between items-center w-full text-gray-300'
-                                target='_blank' href="https://twitter.com/sapphires527">Twitter <FaTwitter size={30} /> </a>
+                                target='_blank' href="">Twitter <FaTwitter size={30} /> </a>
                         </li>
                     </ul>
                 </div>
