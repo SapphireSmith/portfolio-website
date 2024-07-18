@@ -18,7 +18,7 @@ export const data = [
         name: "Nike Landing Page",
         image: nike_landing,
         github: "https://github.com/SapphireSmith/Nike-webpage",
-        live: "https://job-finder-client.onrender.com/",
+        live: "https://nike-webpage-opal.vercel.app/",
     },
     {
         id: 3,
